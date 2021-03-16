@@ -24,9 +24,9 @@ import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class Night extends Application {
+public class TreeFX extends Application {
 
-  private static final String SOURCE = Night.class.getClassLoader().getResource("Ronkorb_etenraku_ryuteki.wav").toExternalForm();
+  private static final String SOURCE = TreeFX.class.getClassLoader().getResource("Ronkorb_etenraku_ryuteki.wav").toExternalForm();
   private static final int SCENE_WIDTH = 1000;
   private static final int SCENE_HEIGHT = 800;
   private static final int NUMBER_OF_BRANCH_GENERATIONS = 8;
