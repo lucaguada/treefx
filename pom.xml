@@ -16,6 +16,7 @@
 
     <mainClass>io.trydent.treefx.TreeFX</mainClass>
     <javafx.version>15.0.1</javafx.version>
+    <iconext>png</iconext>
   </properties>
 
   <dependencies>
@@ -81,7 +82,7 @@
           <linuxPackageName>treefx</linuxPackageName>
           <linuxAppCategory>Utilities</linuxAppCategory>
           <linuxMenuGroup>Utilities</linuxMenuGroup>
-          <icon>${project.basedir}/duke.png</icon>
+          <icon>${project.basedir}/duke.${iconext}</icon>
           <javaOptions>
             <option>-Dfile.encoding=UTF-8</option>
           </javaOptions>
