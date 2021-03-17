@@ -81,7 +81,7 @@
           <linuxPackageName>treefx</linuxPackageName>
           <linuxAppCategory>Utilities</linuxAppCategory>
           <linuxMenuGroup>Utilities</linuxMenuGroup>
-          <icon>/usr/share/icons/Pop/256x256/categories/applications-graphics.png</icon>
+          <icon>${project.basedir}/duke.png</icon>
           <javaOptions>
             <option>-Dfile.encoding=UTF-8</option>
           </javaOptions>
